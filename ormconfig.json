@@ -1,0 +1,17 @@
+{
+    "type": "mysql",
+    "host": "192.168.0.115",
+    "port": 3306,
+    "username": "dev",
+    "password": "xs54bg21",
+    "database": "nodeauth",
+    "entities": [
+        "src/app/models/*.ts"
+    ],
+    "migrations": [
+        "src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "src/database/migrations"
+    }
+}
